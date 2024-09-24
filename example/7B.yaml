@@ -12,7 +12,7 @@ lora:
 # optim
 seq_len: 32768
 batch_size: 1
-max_steps: 300
+max_steps: 1 # 300
 optim:
   lr: 6.e-5
   weight_decay: 0.1
@@ -30,7 +30,7 @@ save_adapters: True  # save only trained LoRA adapters. Set to `False` to merge 
 run_dir: "run_dir"
 
 wandb:
-  project: test-train-mistral-7B
-  run_name: test1
-  key: 6d55bc3627de1a3a5581fbcc9b9638545831dc02
+  project: "test-train-mistral-7B"
+  run_name: ""
+  key: "6d55bc3627de1a3a5581fbcc9b9638545831dc02"
   offline: False

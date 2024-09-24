@@ -172,3 +172,6 @@ eval/eval-*
 
 # Symlinks
 tests/fixtures
+
+# runtime data
+run_dir

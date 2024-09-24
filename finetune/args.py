@@ -29,7 +29,8 @@ class WandbArgs(Serializable):
         if self.project is not None:
             try:
                 import wandb  # noqa: F401
-            except ImportError:
+            except ImportError as e:
+                print("Exception: " + str(e))
                 raise ImportError("`wandb` not installed. Either make sure `wandb` is installed or set `wandb:project` to None.")
 
             if len(self.project) == 0:
