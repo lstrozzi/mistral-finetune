@@ -1,0 +1,4 @@
+name: mistral
+dependencies:
+  - python=3.11
+
