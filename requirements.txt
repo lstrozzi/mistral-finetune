@@ -7,8 +7,8 @@ tensorboard
 tqdm
 wandb
 
-torch==2.4.0
+torch
 triton
-xformers==0.0.27.post2
+xformers
 
 mistral_common
